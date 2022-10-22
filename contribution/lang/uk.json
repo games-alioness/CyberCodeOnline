@@ -305,7 +305,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "Відповідь ${playerName}",
+ 	 	 	 	"trans": "У відповідь ${playerName}",
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
@@ -372,18 +372,18 @@
  	 	"clanPage": {
  	 	 	"createClan": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Ви не є членом жодної банди",
+ 	 	 	 	 	"trans": "Ви не є членом жодної ватаги",
  	 	 	 	 	"eng": "You are not a member of any gang"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Чат банди буде ввімкнено, коли ви належите до банди",
+ 	 	 	 	 	"trans": "Чат банди буде ввімкнено, коли ви належите до ватаги. \\Приєднайтесь до ватаги шляхом пошуку друзів у глобальному чаті або створіть свою власну ватагу і запросіть друзів!",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
- 	 	 	 	 	"trans": "Створити банду",
+ 	 	 	 	 	"trans": "Створити ватагу",
  	 	 	 	 	"eng": "Create gang"
  	 	 	 	},
  	 	 	 	"createButtonDescription": {
@@ -391,7 +391,7 @@
  	 	 	 	 	 	"cost",
  	 	 	 	 	 	"currency"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Створіть банду за ${cost} ${currency}",
+ 	 	 	 	 	"trans": "Створіть ватагу за ${cost} ${currency}",
  	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
  	 	 	 	}
  	 	 	}
@@ -444,7 +444,7 @@
  	 	 	 	"eng": "Quick Slots"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "Обладнання",
+ 	 	 	 	"trans": "Вдягнуто",
  	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
@@ -524,7 +524,7 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Використайте ${timeSkipItemName}, щоб пришвидшити завдання на ${itemSkipMinutes} хвилин",
+ 	 	 	 	 	"trans": "Використайте один із ваших ${timeSkipItemName}, щоб пришвидшити завдання на ${itemSkipMinutes} хвилин",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
@@ -558,7 +558,7 @@
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "Потримайте для обрання кількох речей",
+ 	 	 	 	"trans": "Довго тисніть для вибору декількох речей",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
@@ -578,7 +578,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "Обладнання",
+ 	 	 	 	"trans": "Вдягнуто",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
@@ -617,7 +617,7 @@
  	 	 	},
  	 	 	"editButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "редагувати",
+ 	 	 	 	 	"trans": "редагувати легенду",
  	 	 	 	 	"eng": "edit this lore"
  	 	 	 	},
  	 	 	 	"description": {
@@ -684,12 +684,12 @@
  	 	 	 	"eng": "You can't print equipment while ${currentAction}"
  	 	 	},
  	 	 	"printCache": {
- 	 	 	 	"trans": "Кеш друку",
+ 	 	 	 	"trans": "Надрукувати кеш",
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "Перетворіть цей кеш у зброю або предмет обладнання, який ви можете ОАЕ.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	 	"trans": "Перетворіть цей кеш у зброю або предмет обладнання, який ви можете використовувати.",
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "Розблокувати контейнер",
@@ -716,7 +716,7 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Ця дія скасує попереднє калібрування цієї речі, але також дозволить її продаж. \n      Продовжити?",
+ 	 	 	 	 	"trans": "Ця дія скасує попереднє калібрування цієї речі, але також дозволить її продаж. \r\n      Продовжити?",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
  	 	 	 	},
  	 	 	 	"trans": "Відновити Заводські Налаштування",
@@ -728,7 +728,7 @@
  	 	 	 	 	"eng": "You no longer have this item"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Натисніть назад, щоб повернутися до інвентаризації",
+ 	 	 	 	 	"trans": "Натисніть назад, щоб повернутися до інвентаря",
  	 	 	 	 	"eng": "press back to go back to inventory"
  	 	 	 	}
  	 	 	}
@@ -749,13 +749,13 @@
  	 	},
  	 	"backToPreviusLoc": {
  	 	 	"longPressBackToCity": {
- 	 	 	 	"trans": "Потримайте, щоб повернутися до міста",
+ 	 	 	 	"trans": "Довго тисніть, щоб повернутися до міста",
  	 	 	 	"eng": "Long press to go back to city"
  	 	 	}
  	 	},
  	 	"notificationCenter": {
  	 	 	"deleteTip": {
- 	 	 	 	"trans": "Потримайте, щоб видалити",
+ 	 	 	 	"trans": "Довго тисніть, щоб видалити",
  	 	 	 	"eng": "Long press to delete"
  	 	 	}
  	 	},
@@ -785,7 +785,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"repairFee"
  	 	 	 	],
- 	 	 	 	"trans": "Вартість ремонту всіх предметів - (${repairFee} біткойнів)",
+ 	 	 	 	"trans": "Відремонтуйте усі речі за - (${repairFee} біткойнів)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
  	 	 	},
  	 	 	"unlockContainerButton": {
@@ -804,7 +804,7 @@
  	 	 	 	 	 	"eng": "printing level ${level} equipments"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Рівень видрукуваного обладнання залежить від рівня друку, підвищуйте рівень друку, друкуючи більше речей",
+ 	 	 	 	 	 	"trans": "Рівень надрукованого обладнання залежить від рівня друку, підвищуйте рівень друку, друкуючи більше речей",
  	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
  	 	 	 	 	}
  	 	 	 	}
@@ -863,7 +863,7 @@
  	 	 	 	"eng": "Bio"
  	 	 	},
  	 	 	"bioNotFound": {
- 	 	 	 	"trans": "Редаговано",
+ 	 	 	 	"trans": "ВІДРЕДАГОВАНО",
  	 	 	 	"eng": "REDACTED"
  	 	 	},
  	 	 	"decoration1": {
@@ -933,12 +933,12 @@
  	 	 	 	 	"eng": "Give Street Cred"
  	 	 	 	},
  	 	 	 	"report": {
- 	 	 	 	 	"trans": "Звітувати гравця",
+ 	 	 	 	 	"trans": "Поскаржитись на гравця",
  	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "Обладнаний",
+ 	 	 	 	"trans": "Вдягнуто",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
@@ -1066,7 +1066,7 @@
  	 	 	 	"eng": "Please ensure your device time is correct."
  	 	 	},
  	 	 	"manualRefresh": {
- 	 	 	 	"trans": "оновити вручну",
+ 	 	 	 	"trans": "Оновити вручну",
  	 	 	 	"eng": "Manual Refresh"
  	 	 	},
  	 	 	"abort": {
@@ -1090,7 +1090,7 @@
  	 	 	 	"eng": "Are you sure you want to abort?"
  	 	 	},
  	 	 	"abortWarning": {
- 	 	 	 	"trans": "використані матеріали будуть втрачені при скасуванні",
+ 	 	 	 	"trans": "Скасувавши це, ви не отримаєте винагороди, а використані матеріали буде втрачено",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
  	 	 	}
  	 	},
@@ -1167,7 +1167,7 @@
  	 	 	 	 	 	"eng": "Acquire AI Cores"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Ви можете отримати Ядра AI наступним чином: \n         - Пошпортайтесь в різних місцях \n         - Виготовте з хеш-процесора і техно-шматочків \n         - поборовши ворогів у будь-якій локації",
+ 	 	 	 	 	 	"trans": "Ви можете отримати Ядра AI наступним чином: \r\n         - Пошпортайтесь в різних місцях \r\n         - Виготовте з хеш-процесора і техно-шматочків \r\n         - Поборовши ворогів у будь-якій локації",
  	 	 	 	 	 	"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
  	 	 	 	 	}
  	 	 	 	},
@@ -1314,7 +1314,7 @@
  	 	},
  	 	"setting": {
  	 	 	"langWarning": {
- 	 	 	 	"trans": "Цей мовний пакет є в відкритому доступі, і дописується нашими гравцями. Текст може бути перекладений частково, або з помилками. Якщо бажаєте, можете додати поправки і допомогти на нашій Github сторінці",
+ 	 	 	 	"trans": "Цей мовний пакет є в відкритому доступі, і дописується нашими гравцями. Текст може бути перекладений частково, або з помилками. Якщо бажаєте, можете додати правки і допомогти на нашій Github сторінці",
  	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
  	 	 	},
  	 	 	"langGithub": {
@@ -1967,7 +1967,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"date"
  	 	 	 	],
- 	 	 	 	"trans": "Буде втрачено ${date}",
+ 	 	 	 	"trans": "Термін дії закінчується через ${date}",
  	 	 	 	"eng": "Expires in ${date}"
  	 	 	},
  	 	 	"empty": {
@@ -2296,7 +2296,7 @@
  	 	 	"eng": "Durability"
  	 	},
  	 	"equipped": {
- 	 	 	"trans": "Одягнено",
+ 	 	 	"trans": "Вдягнуто",
  	 	 	"eng": "Equipped"
  	 	},
  	 	"ok": {
